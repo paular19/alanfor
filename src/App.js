@@ -11,6 +11,7 @@ import ImgseccionB from "./Assets/2005.i101.004_natural_resources_isometric.jpg"
 import ImgseccionC from "./Assets/green_leaf_recycle_sign.jpg"
 import Imgcamio from "./Assets/11b63269-b0eb-4dfd-a25d-85f49bb9759b.jpg"
 import './App.css';
+import Footer from "./components/Footer";
 
 function App() { 
     return (
@@ -44,7 +45,7 @@ function App() {
             <div className="rectangulo-amarillo-vision">
             <div className="titulo-seccion2">
                 <h2 className="nuestra-vision">NUESTRA</h2> <h2 className="nuestra-vision2">VISIÓN</h2></div>
-                <p className="nuestra-vision-txt">Entendemos las necesidades y desafíos de cada proyecto brindando un servicio personalizado y de alta calidad. Somos argentinos entendemos perfectamente las especificidades del terreno y del mercado local, lo que nos convierte en tu mejor opción para servicios de perforación y minería en Argentina.</p>   
+                <p className="nuestra-vision-txt">Ser la empresa líder de servicios mineros, petroleros y de gas en la región, brindando servicios personalizados y de alta calidad, que satisfagan las necesidades específicas de cada cliente.</p>   
             </div>
 
             <h2 className="titulo-container-card">SERVICIOS</h2>
@@ -86,7 +87,7 @@ function App() {
                <div className="rectangulo-filtro-card"></div>
                <div className="containerimgtxt-seccion3">
                <h2 className="nuestra-mision">NUESTRA</h2> <h2 className="nuestra-mision2">META</h2> 
-               <p className="nuestra-meta-txt">Ser líderes en la industria de perforación y tecnología aplicada a los sectores petrolero y minero, marcando la pauta en innovación, calidad y confiabilidad. Aspiramos a ser el socio estratégico de elección para nuestros clientes, impulsados por un equipo humano inigualable en experiencia y capacitación.</p>
+               <p className="nuestra-meta-txt">Brindar servicios mineros, petroleros y de gas personalizados y de alta calidad que satisfagan las necesidades específicas de cada cliente, con un compromiso con la excelencia y el desarrollo sostenible.</p>
                </div>
             </div>
 
@@ -121,8 +122,23 @@ function App() {
 
             </div>
 
+            <h2 className="titulo-container-card">NUESTRO EQUIPO</h2>
+            <div className="container-cards2">
+                
+                <div className="card">
+                    <p className="txt-card2"></p>   
+                </div>
+
+                <div className="card">
+                    <p className="txt-card2-"></p>   
+                </div>
+
+                <div className="card">
+                    <p className="txt-card2"></p>   
+                </div>
+            </div>
            
-         
+        <Footer/>
         </div>
     );
   
